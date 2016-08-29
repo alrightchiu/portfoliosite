@@ -225,8 +225,13 @@ nav {
 }
 .proj3button, .proj2button {
 	display: inline-block;
+	margin-left: 2px;
+	padding: 0 2px;
+}
+
+.proj3button {
 	margin-left: 5px;
-	padding: 0 3px;
+	padding: 0 4px;
 }
 
 /*    proj4    */
