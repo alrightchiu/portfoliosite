@@ -1,0 +1,415 @@
+
+/*   Clearfix group   */
+
+.clearfix-group:before,
+.clearfix-group:after {
+	content: "";
+	display: table;
+}
+.clearfix-group:after {
+	clear: both;
+}
+.clearfix-group {
+	clear: both;
+	*zoom: 1;
+}
+
+
+
+/*       */
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 18px;
+	color: #222222;
+}
+
+a {
+	text-decoration: none;
+	color: #020002;
+}
+
+nav {
+	width: 100%;
+	height: 60px;
+	background-color: #eeeeee;
+	opacity: 0.9;
+}
+
+#home, #cv, #github {
+	margin: 7px 0;
+	padding: 5px 10px;
+	height: 32px;
+	line-height: 32px;
+
+	// border: 2px solid #050505;
+	border-bottom: 2px solid #050505;
+	border-radius: 2px;
+	text-align: center;
+
+	background-color: #f7f7f7;
+}
+
+#home {
+	float: left;
+	margin-left: 20px;
+	width: 75px;
+}
+#cv {
+	float: right;
+	margin-right: 20px; 
+	width: 100px;
+
+}
+#github {
+	float: right;
+	margin-right: 20px;
+	width: 135px;
+} 
+#githubIcon {
+	float: left;
+	width: 32px;
+	height: 32px;
+	background-image: url('img/GitHub-Mark-32px.png');
+	background-size: contain;
+}
+#githubAccount {
+	float: right;
+	width: 96px;
+	height: 32px;
+	line-height: 32px;
+}
+#home:hover, #cv:hover, #github:hover {
+	background-color: #da1c5f;
+	color: #fff;
+} 
+
+
+/*   section  */
+
+
+
+#wrap {
+	margin: 10px auto;
+	margin-bottom: 30px;
+	width: 960px;
+	height: 960px;
+	// background-color: #ffe766;
+}
+
+#top {
+	height: 576px;					/* 960 x 60% */
+	// background-color: #d1d1f1;
+}
+#bottom {
+	height: 384px;					/* 960 x 40% */
+	// background-color: #f1d1d1;
+}
+
+
+/*  bio   */
+
+#topleft {
+	float: left;
+	width: 288px;					/* 960 x 30% - 20px */
+	height: 576px;
+	// background-color: #615e99;
+}
+
+#bio {
+	width: 268px;
+	height: 556px;
+	background-color: #1ca949;
+}
+#bio-img-container {
+	float: left;
+	margin: 0px auto;
+	padding: 20px;
+	width: 228px;
+	height: 297px;
+}
+#bio-img {
+	width: 228px;
+	height: 297px;
+	background-image: url('img/portfolio.jpg');
+	background-size: contain;
+}
+#bio-text {
+	float: left;
+	width: 268px;
+	height: 556px;
+	padding: 5px 20px;
+}
+
+
+#topright {
+	float: right;
+	width: 672px;
+	height: 576px;
+	// background-color: red;
+}
+
+#topright-upper, #topright-lower {
+	width: 672px;
+	height: 288px;					/* 288 = 576 x 50% */
+}
+
+
+/*    proj1    */
+
+#proj1 {
+	float: left;
+	width: 384px;					/* 384 = 672 x 60% */
+	height: 268px;
+	background-color: #f68781;
+}
+#proj1-img-container {
+	float: left;
+	padding: 20px;
+	width: 185px;
+	height: 228px;
+}
+#proj1-img {
+	width: 185px;
+	height: 228px;
+	background-image: url('img/snapshot_calculator.png');
+	background-size: contain;
+}
+#proj1-text {
+	float: left;
+	padding: 20px 0px 20px 18px;
+	width: 115px;
+	height: 228px;
+}
+
+
+
+.proj1button, .proj4button {
+	margin: 10px auto;
+}
+
+
+/*   proj3   */
+
+
+#proj3 {
+	float: left;
+	width: 248px;
+	height: 268px;
+	background-color: #333;
+}
+#proj3-img-container {
+	float: left;
+	margin: 0px auto;
+	padding: 20px 25px 15px 25px;
+	width: 198px;
+	height: 180px;
+}
+#proj3-img {
+	width: 198px;
+	height: 180px;
+	background-image: url('img/snapshot_puzzle.png');
+	background-size: contain;
+}
+#proj3-text {
+	float: left;
+	padding: 0px 0px 0px 25px;
+	width: 198px;
+	height: 40px;
+}
+.proj3button, .proj2button {
+	display: inline-block;
+	margin-left: 5px;
+	padding: 0 3px;
+}
+
+/*    proj4    */
+
+#proj4 {
+	float: right;
+	width: 384px;
+	height: 268px;
+	background-color: #f64d94;
+}
+#proj4-img-container {
+	float: left;
+	padding: 20px;
+	width: 186px;
+	height: 228px;
+}
+#proj4-img {
+	width: 186px;
+	height: 228px;
+	background-image: url('img/snapshot_todoList.png');
+	background-size: contain;
+}
+#proj4-text {
+	float: left;
+	padding: 20px 0px 20px 18px;
+	width: 115px;
+	height: 228px;
+}
+
+
+/*    proj2   */
+
+#proj2 {
+	float: left;
+	width: 248px;
+	height: 268px;
+	background-color: #999;
+}
+#proj2-img-container {
+	float: left;
+	padding: 20px;
+	width: 204px;
+	height: 180px;
+}
+#proj2-img {
+	width: 204px;
+	height: 180px;
+	background-image: url('img/snapshot_calendar.png');
+	background-size: contain;
+}
+#proj2-text {
+	float: left;
+	padding: 0px 0px 0px 25px;
+	width: 198px;
+	height: 40px;
+}
+
+
+
+/*  second round   */
+
+#bottomright {
+	float: right;
+	width: 576px;
+	height: 384px;
+	// background-color: #f490a4;
+}
+
+#secondRound {
+	width: 556px;
+	height: 364px;
+	background-color: #4dc6a4;
+}
+#secondRound-img-container {
+	float: left;
+	padding: 10px 25px;
+	width: 500px;
+	height: 240px;
+}
+#secondRound-img {
+	width: 500px;
+	height: 240px;
+	background-image: url('img/snapshot_secondRound.png');
+	background-size: contain;
+}
+#secondRound-text {
+	float: left;
+	padding: 0px 25px;
+	width: 500px;
+	height: 100px;
+}
+#secondRound-text p{
+	padding: 0 0 5px 0;
+}
+.secondRoundbutton {
+	display: inline-block;
+	margin: 3px 5px 3px 0;
+	padding: 0 10px;
+}
+
+
+/*  proj5   */
+
+
+#bottomleft {
+	float: left;
+	width: 384px;
+	height: 384px;
+	// background-color: #52c6d7;
+}
+#proj5 {
+	float: left;
+	width: 364px;
+	height: 364px;
+	background-color: #00c5ff;
+}
+#proj5-img-container {
+	float: left;
+	padding: 10px 20px;
+	width: 318px;
+	height: 240px;
+}
+#proj5-img {
+	width: 318px;
+	height: 240px;
+	background-image: url('img/snapshot_scheduleTable.png');
+	background-size: contain;
+}
+#proj5-text {
+	float: left;
+	padding: 0px 20px;
+	width: 318px;
+	height: 100px;
+}
+#proj5-text p{
+	padding: 0 0 5px 0;
+}
+.proj5button {
+	display: inline-block;
+	margin: 3px 5px 3px 0;
+	padding: 0 10px;
+}
+
+/*  all block   */
+
+
+/*  text  */
+
+p {
+	padding: 5px 0;
+}
+li {
+	padding: 5px 0 5px 20px;
+	list-style-type: none;
+}
+.projbutton {
+	// border: 2px solid #050505;
+	border-bottom: 2px solid #050505;
+	border-radius: 2px;
+	text-align: center;
+	background-color: #f7f7f7;
+	height: 24px;
+	line-height: 20px;
+}
+.projbutton:hover {
+	background-color: #da1c5f;
+	color: #fff;
+}
+
+
+#proj1,#proj2,#proj3,#proj4,#proj5,#secondRound,#bio {
+	margin: 10px;
+	box-shadow: 2px 2px 3px #15152f;
+	background-color: #fefeff;
+}
+#proj1-img,#proj2-img,#proj3-img,#proj4-img,#proj5-img,#secondRound-img,#bio-img {
+	opacity: 0.75;
+	box-shadow: 2px 2px 3px #15152f;
+}
+
+
+/* media query */
+
+
+
+
