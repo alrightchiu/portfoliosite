@@ -801,17 +801,16 @@ li {
 		float: left;
 		padding: 10px;
 		width: 140px;
-		height: 195px;
+		height: 182px;
 	}
 	#bio-img {
 		width: 140px;
-		height: 195px;
+		height: 182px;
 		background-image: url('img/portfolio.jpg');
 		background-size: contain;
 	}
 	#bio-text {
 		float: right;
-		height: 195px;
 		padding: 20px 10px 0px 5px;
 	}
 
