@@ -644,11 +644,11 @@ li {
 		float: left;
 		padding: 10px;
 		width: 160px;
-		height: 222px;
+		height: 210px;
 	}
 	#bio-img {
 		width: 160px;
-		height: 222px;
+		height: 210px;
 		background-image: url('img/portfolio.jpg');
 		background-size: contain;
 	}
