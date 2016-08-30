@@ -35,7 +35,7 @@ a {
 	color: #020002;
 }
 
-nav {
+#nav-over672px {
 	width: 100%;
 	height: 60px;
 	background-color: #eeeeee;
@@ -85,300 +85,39 @@ nav {
 	height: 32px;
 	line-height: 32px;
 }
-#home:hover, #cv:hover, #github:hover {
+#home:hover, #cv:hover, #github:hover, .under672pxbutton:hover {
 	background-color: #da1c5f;
 	color: #fff;
 } 
 
-
-/*   section  */
-
-
-
-#wrap {
-	margin: 10px auto;
-	margin-bottom: 30px;
-	width: 960px;
-	height: 960px;
-	// background-color: #ffe766;
+#nav-under672px {
+	width: 100%;
+	height: 50px;
+	background-color: #eeeeee;
+	opacity: 0.9;
 }
-
-#top {
-	height: 576px;					/* 960 x 60% */
-	// background-color: #d1d1f1;
-}
-#bottom {
-	height: 384px;					/* 960 x 40% */
-	// background-color: #f1d1d1;
-}
-
-
-/*  bio   */
-
-#topleft {
+#home-under {
 	float: left;
-	width: 288px;					/* 960 x 30% - 20px */
-	height: 576px;
-	// background-color: #615e99;
+	margin-left: 20px;
 }
-
-#bio {
-	width: 268px;
-	height: 556px;
-	background-color: #1ca949;
-}
-#bio-img-container {
-	float: left;
-	margin: 0px auto;
-	padding: 20px;
-	width: 228px;
-	height: 297px;
-}
-#bio-img {
-	width: 228px;
-	height: 297px;
-	background-image: url('img/portfolio.jpg');
-	background-size: contain;
-}
-#bio-text {
-	float: left;
-	width: 268px;
-	height: 556px;
-	padding: 5px 20px;
-}
-
-
-#topright {
+#cv-under, #github-under {
 	float: right;
-	width: 672px;
-	height: 576px;
-	// background-color: red;
+	margin-right: 15px;
 }
 
-#topright-upper, #topright-lower {
-	width: 672px;
-	height: 288px;					/* 288 = 576 x 50% */
-}
+.under672pxbutton {
+	border: 2px solid #050505;
+	border-radius: 18px;
+	text-align: center;
 
-
-/*    proj1    */
-
-#proj1 {
-	float: left;
-	width: 384px;					/* 384 = 672 x 60% */
-	height: 268px;
-	background-color: #f68781;
-}
-#proj1-img-container {
-	float: left;
-	padding: 20px;
-	width: 185px;
-	height: 228px;
-}
-#proj1-img {
-	width: 185px;
-	height: 228px;
-	background-image: url('img/snapshot_calculator.png');
-	background-size: contain;
-}
-#proj1-text {
-	float: left;
-	padding: 20px 0px 20px 18px;
-	width: 115px;
-	height: 228px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	margin: 8px 0;
 }
 
 
-
-.proj1button, .proj4button {
-	margin: 10px auto;
-}
-
-
-/*   proj3   */
-
-
-#proj3 {
-	float: left;
-	width: 248px;
-	height: 268px;
-	background-color: #333;
-}
-#proj3-img-container {
-	float: left;
-	margin: 0px auto;
-	padding: 20px 25px 15px 25px;
-	width: 198px;
-	height: 180px;
-}
-#proj3-img {
-	width: 198px;
-	height: 180px;
-	background-image: url('img/snapshot_puzzle.png');
-	background-size: contain;
-}
-#proj3-text {
-	float: left;
-	padding: 0px 0px 0px 25px;
-	width: 198px;
-	height: 40px;
-}
-.proj3button, .proj2button {
-	display: inline-block;
-	margin-left: 2px;
-	padding: 0 2px;
-}
-
-.proj3button {
-	margin-left: 5px;
-	padding: 0 4px;
-}
-
-/*    proj4    */
-
-#proj4 {
-	float: right;
-	width: 384px;
-	height: 268px;
-	background-color: #f64d94;
-}
-#proj4-img-container {
-	float: left;
-	padding: 20px;
-	width: 186px;
-	height: 228px;
-}
-#proj4-img {
-	width: 186px;
-	height: 228px;
-	background-image: url('img/snapshot_todoList.png');
-	background-size: contain;
-}
-#proj4-text {
-	float: left;
-	padding: 20px 0px 20px 18px;
-	width: 115px;
-	height: 228px;
-}
-
-
-/*    proj2   */
-
-#proj2 {
-	float: left;
-	width: 248px;
-	height: 268px;
-	background-color: #999;
-}
-#proj2-img-container {
-	float: left;
-	padding: 20px;
-	width: 204px;
-	height: 180px;
-}
-#proj2-img {
-	width: 204px;
-	height: 180px;
-	background-image: url('img/snapshot_calendar.png');
-	background-size: contain;
-}
-#proj2-text {
-	float: left;
-	padding: 0px 0px 0px 25px;
-	width: 198px;
-	height: 40px;
-}
-
-
-
-/*  second round   */
-
-#bottomright {
-	float: right;
-	width: 576px;
-	height: 384px;
-	// background-color: #f490a4;
-}
-
-#secondRound {
-	width: 556px;
-	height: 364px;
-	background-color: #4dc6a4;
-}
-#secondRound-img-container {
-	float: left;
-	padding: 10px 25px;
-	width: 500px;
-	height: 240px;
-}
-#secondRound-img {
-	width: 500px;
-	height: 240px;
-	background-image: url('img/snapshot_secondRound.png');
-	background-size: contain;
-}
-#secondRound-text {
-	float: left;
-	padding: 0px 25px;
-	width: 500px;
-	height: 100px;
-}
-#secondRound-text p{
-	padding: 0 0 5px 0;
-}
-.secondRoundbutton {
-	display: inline-block;
-	margin: 3px 5px 3px 0;
-	padding: 0 10px;
-}
-
-
-/*  proj5   */
-
-
-#bottomleft {
-	float: left;
-	width: 384px;
-	height: 384px;
-	// background-color: #52c6d7;
-}
-#proj5 {
-	float: left;
-	width: 364px;
-	height: 364px;
-	background-color: #00c5ff;
-}
-#proj5-img-container {
-	float: left;
-	padding: 10px 20px;
-	width: 318px;
-	height: 240px;
-}
-#proj5-img {
-	width: 318px;
-	height: 240px;
-	background-image: url('img/snapshot_scheduleTable.png');
-	background-size: contain;
-}
-#proj5-text {
-	float: left;
-	padding: 0px 20px;
-	width: 318px;
-	height: 100px;
-}
-#proj5-text p{
-	padding: 0 0 5px 0;
-}
-.proj5button {
-	display: inline-block;
-	margin: 3px 5px 3px 0;
-	padding: 0 10px;
-}
-
-/*  all block   */
-
-
-/*  text  */
+/*  for all  */
 
 p {
 	padding: 5px 0;
@@ -388,7 +127,6 @@ li {
 	list-style-type: none;
 }
 .projbutton {
-	// border: 2px solid #050505;
 	border-bottom: 2px solid #050505;
 	border-radius: 2px;
 	text-align: center;
@@ -403,7 +141,6 @@ li {
 
 
 #proj1,#proj2,#proj3,#proj4,#proj5,#secondRound,#bio {
-	margin: 10px;
 	box-shadow: 2px 2px 3px #15152f;
 	background-color: #fefeff;
 }
@@ -412,9 +149,790 @@ li {
 	box-shadow: 2px 2px 3px #15152f;
 }
 
+#wrap {
+	margin: 10px auto;
+	margin-bottom: 30px;
+}
 
-/* media query */
+
+
+/*   section  */
+
+@media screen and (min-width: 960px){
+	#nav-under672px{
+		display: none;
+	}
+	#proj1,#proj2,#proj3,#proj4,#proj5,#secondRound,#bio {
+		margin: 10px;
+	}
+	#wrap {
+		width: 960px;
+		height: 960px;
+		// background-color: #ffe766;
+	}
+
+	#top {
+		height: 576px;					/* 960 x 60% */
+		// background-color: #d1d1f1;
+	}
+	#bottom {
+		height: 384px;					/* 960 x 40% */
+		// background-color: #f1d1d1;
+	}
+
+	/*  bio   */
+
+	#topleft {
+		float: left;
+		width: 288px;					/* 960 x 30% - 20px */
+		height: 576px;
+		// background-color: #615e99;
+	}
+
+	#bio {
+		width: 268px;
+		height: 556px;
+		// background-color: #1ca949;
+	}
+	#bio-img-container {
+		float: left;
+		margin: 0px auto;
+		padding: 20px;
+		width: 228px;
+		height: 297px;
+	}
+	#bio-img {
+		width: 228px;
+		height: 297px;
+		background-image: url('img/portfolio.jpg');
+		background-size: contain;
+	}
+	#bio-text {
+		float: left;
+		width: 268px;
+		height: 556px;
+		padding: 5px 20px;
+	}
+
+
+	#topright {
+		float: right;
+		width: 672px;
+		height: 576px;
+		// background-color: red;
+	}
+
+	#topright-upper, #topright-lower {
+		width: 672px;
+		height: 288px;					/* 288 = 576 x 50% */
+	}
+
+
+	/*    proj1    */
+
+	#proj1 {
+		float: left;
+		width: 384px;					/* 384 = 672 x 60% */
+		height: 268px;
+		// background-color: #f68781;
+	}
+	#proj1-img-container {
+		float: left;
+		padding: 20px;
+		width: 185px;
+		height: 228px;
+	}
+	#proj1-img {
+		width: 185px;
+		height: 228px;
+		background-image: url('img/snapshot_calculator.png');
+		background-size: contain;
+	}
+	#proj1-text {
+		float: left;
+		padding: 20px 0px 20px 18px;
+		width: 115px;
+		height: 228px;
+	}
+
+	.proj1button, .proj4button {
+		margin: 10px auto;
+	}
+
+
+	/*   proj3   */
+
+	#proj3 {
+		float: left;
+		width: 248px;
+		height: 268px;
+		// background-color: #333;
+	}
+	#proj3-img-container {
+		float: left;
+		margin: 0px auto;
+		padding: 20px 25px 15px 25px;
+		width: 198px;
+		height: 180px;
+	}
+	#proj3-img {
+		width: 198px;
+		height: 180px;
+		background-image: url('img/snapshot_puzzle.png');
+		background-size: contain;
+	}
+	#proj3-text {
+		float: left;
+		padding: 0px 0px 0px 25px;
+		width: 198px;
+		height: 40px;
+	}
+	.proj3button, .proj2button {
+		display: inline-block;
+		margin-left: 2px;
+		padding: 0 2px;
+	}
+
+	.proj3button {
+		margin-left: 5px;
+		padding: 0 4px;
+	}
+
+	/*    proj4    */
+
+	#proj4 {
+		float: right;
+		width: 384px;
+		height: 268px;
+		// background-color: #f64d94;
+	}
+	#proj4-img-container {
+		float: left;
+		padding: 20px;
+		width: 186px;
+		height: 228px;
+	}
+	#proj4-img {
+		width: 186px;
+		height: 228px;
+		background-image: url('img/snapshot_todoList.png');
+		background-size: contain;
+	}
+	#proj4-text {
+		float: left;
+		padding: 20px 0px 20px 18px;
+		width: 115px;
+		height: 228px;
+	}
+
+
+	/*    proj2   */
+
+	#proj2 {
+		float: left;
+		width: 248px;
+		height: 268px;
+		// background-color: #999;
+	}
+	#proj2-img-container {
+		float: left;
+		padding: 20px;
+		width: 204px;
+		height: 180px;
+	}
+	#proj2-img {
+		width: 204px;
+		height: 180px;
+		background-image: url('img/snapshot_calendar.png');
+		background-size: contain;
+	}
+	#proj2-text {
+		float: left;
+		padding: 0px 0px 0px 25px;
+		width: 198px;
+		height: 40px;
+	}
 
 
 
+	/*  second round   */
 
+	#bottomright {
+		float: right;
+		width: 576px;
+		height: 384px;
+		// background-color: #f490a4;
+	}
+
+	#secondRound {
+		width: 556px;
+		height: 364px;
+		// background-color: #4dc6a4;
+	}
+	#secondRound-img-container {
+		float: left;
+		padding: 10px 25px;
+		width: 500px;
+		height: 240px;
+	}
+	#secondRound-img {
+		width: 500px;
+		height: 240px;
+		background-image: url('img/snapshot_secondRound.png');
+		background-size: contain;
+	}
+	#secondRound-text {
+		float: left;
+		padding: 0px 25px;
+		width: 500px;
+		height: 100px;
+	}
+	#secondRound-text p{
+		padding: 0 0 5px 0;
+	}
+	.secondRoundbutton {
+		display: inline-block;
+		margin: 3px 5px 3px 0;
+		padding: 0 10px;
+	}
+
+
+	/*  proj5   */
+
+
+	#bottomleft {
+		float: left;
+		width: 384px;
+		height: 384px;
+		// background-color: #52c6d7;
+	}
+	#proj5 {
+		float: left;
+		width: 364px;
+		height: 364px;
+		// background-color: #00c5ff;
+	}
+	#proj5-img-container {
+		float: left;
+		padding: 10px 20px;
+		width: 318px;
+		height: 240px;
+	}
+	#proj5-img {
+		width: 318px;
+		height: 240px;
+		background-image: url('img/snapshot_scheduleTable.png');
+		background-size: contain;
+	}
+	#proj5-text {
+		float: left;
+		padding: 0px 20px;
+		width: 318px;
+		height: 100px;
+	}
+	#proj5-text p{
+		padding: 0 0 5px 0;
+	}
+	.proj5button {
+		display: inline-block;
+		margin: 3px 5px 3px 0;
+		padding: 0 10px;
+	}
+
+	
+}
+
+@media screen and (max-width: 959px) and (min-width: 672px) {
+	#nav-under672px {
+		display: none;
+	}
+	#wrap {
+		width: 672px;
+	}
+	#proj5,#secondRound,#bio {
+		width: 672px;
+	}
+	#proj1,#proj2,#proj3,#proj4,#proj5,#secondRound,#bio{
+		margin: 10px 0 0 0;
+	}
+	#bio-img-container {
+		float: left;
+		padding: 20px 20px 20px 100px;
+		width: 228px;
+		height: 297px;
+	}
+	#bio-img {
+		width: 228px;
+		height: 297px;
+		background-image: url('img/portfolio.jpg');
+		background-size: contain;
+	}
+	#bio-text {
+		float: right;
+		width: 260px;
+		height: 297px;
+		padding: 40px 20px 0px 20px;
+	}
+
+	/*  block of proj1~proj4  */
+
+	#proj1 {
+		float: left;
+		width: 384px;					/* 384 = 672 x 60% */
+		height: 268px;
+		// background-color: #f68781;
+	}
+	#proj1-img-container {
+		float: left;
+		padding: 20px;
+		width: 185px;
+		height: 228px;
+	}
+	#proj1-img {
+		width: 185px;
+		height: 228px;
+		background-image: url('img/snapshot_calculator.png');
+		background-size: contain;
+	}
+	#proj1-text {
+		float: left;
+		padding: 20px 0px 20px 18px;
+		width: 115px;
+		height: 228px;
+	}
+	.proj1button, .proj4button {
+		margin: 10px auto;
+	}
+
+	#proj3 {
+		float: right;
+		width: 268px;
+		height: 268px;
+		// background-color: #333;
+	}
+	#proj3-img-container {
+		float: left;
+		padding: 20px 35px 15px 35px;
+		width: 198px;
+		height: 180px;
+	}
+	#proj3-img {
+		width: 198px;
+		height: 180px;
+		background-image: url('img/snapshot_puzzle.png');
+		background-size: contain;
+	}
+	#proj3-text {
+		float: left;
+		padding: 0px 0px 0px 35px;
+		width: 198px;
+		height: 40px;
+	}
+	.proj3button {
+		display: inline-block;
+		margin-left: 5px;
+		padding: 0 4px;
+	}
+
+	/*    proj4    */
+
+	#proj4 {
+		float: right;
+		width: 384px;
+		height: 268px;
+		// background-color: #f64d94;
+	}
+	#proj4-img-container {
+		float: left;
+		padding: 20px;
+		width: 186px;
+		height: 228px;
+	}
+	#proj4-img {
+		width: 186px;
+		height: 228px;
+		background-image: url('img/snapshot_todoList.png');
+		background-size: contain;
+	}
+	#proj4-text {
+		float: left;
+		padding: 20px 0px 20px 18px;
+		width: 115px;
+		height: 228px;
+	}
+
+
+	/*    proj2   */
+
+	#proj2 {
+		float: left;
+		width: 268px;
+		height: 268px;
+		// background-color: #999;
+	}
+	#proj2-img-container {
+		float: left;
+		padding: 20px 30px;
+		width: 204px;
+		height: 180px;
+	}
+	#proj2-img {
+		width: 204px;
+		height: 180px;
+		background-image: url('img/snapshot_calendar.png');
+		background-size: contain;
+	}
+	#proj2-text {
+		float: left;
+		padding: 0px 0px 0px 30px;
+		width: 204px;
+		height: 40px;
+	}
+	.proj2button {
+		display: inline-block;
+		margin-left: 3px;
+		padding: 0 2px;
+	}
+
+	/*  second round  & proj5 */
+
+	#secondRound-img-container, #proj5-img-container {
+		padding: 20px 86px;
+		width: 500px;
+		height: 240px;
+	}
+	#secondRound-img {
+		width: 500px;
+		height: 240px;
+		background-image: url('img/snapshot_secondRound.png');
+		background-size: contain;
+	}
+	#proj5-img {
+		width: 500px;
+		height: 236px;
+		background-image: url('img/snapshot_scheduleTable.png');
+		background-size: cover;
+	}
+	#secondRound-text, #proj5-text {
+		padding: 0px 0 20px 86px;
+		width: 500px;
+	}
+	#secondRound-text p, #proj5-text p{
+		padding: 0 0 5px 0;
+	}
+	.secondRoundbutton, .proj5button {
+		display: inline-block;
+		margin: 3px 5px 3px 0;
+		padding: 0 10px;
+	}
+}
+
+@media screen and (max-width: 671px) and (min-width: 384px) {
+
+	#nav-over672px{
+		display: none;
+	}
+
+	#wrap {
+		width: 384px;
+	}
+	#proj1,#proj2,#proj3,#proj4,#proj5,#secondRound,#bio{
+		width: 384px;
+		margin: 10px 0 0 0;
+	}
+	#bio-img-container {
+		float: left;
+		padding: 10px;
+		width: 160px;
+		height: 222px;
+	}
+	#bio-img {
+		width: 160px;
+		height: 222px;
+		background-image: url('img/portfolio.jpg');
+		background-size: contain;
+	}
+	#bio-text {
+		float: right;
+		padding: 20px 15px 0px 0px;
+	}
+
+	/* proj1 */
+
+	#proj1-img-container{
+		float: left;
+		padding: 10px;
+		width: 170px;
+		height: 210px;
+	}
+	#proj1-img {
+		width: 170px;
+		height: 210px;
+		background-image: url('img/snapshot_calculator.png');
+		background-size: contain;
+	}
+	
+	#proj1-text{
+		float: right;
+		padding: 10px 50px 10px 0px;
+	}
+	.proj1button{
+		display: block;
+		margin: 5px auto;
+	}
+
+	/*  proj3  */
+	#proj3-img-container {
+		float: left;
+		padding: 10px;
+		width: 170px;
+		height: 154px;
+	}
+	#proj3-img {
+		width: 170px;
+		height: 154px;
+		background-image: url('img/snapshot_puzzle.png');
+		background-size: contain;
+	}
+	#proj3-text{
+		float: right;
+		padding: 35px 60px 10px 0px;
+	}
+	.proj3button {
+		display: block;
+		margin: 10px auto;
+	}
+
+	/*  proj4  */
+	#proj4-img-container{
+		float: left;
+		padding: 10px;
+		width: 170px;
+		height: 210px;
+	}
+	#proj4-img {
+		width: 170px;
+		height: 210px;
+		background-image: url('img/snapshot_todoList.png');
+		background-size: contain;
+	}
+	#proj4-text{
+		float: right;
+		padding: 10px 35px 10px 0px;
+	}
+	.proj4button{
+		display: block;
+		margin: 5px auto;
+	}
+
+	/*   proj2   */
+	#proj2-img-container {
+		float: left;
+		padding: 10px;
+		width: 170px;
+		height: 150px;
+	}
+	#proj2-img {
+		width: 170px;
+		height: 150px;
+		background-image: url('img/snapshot_calendar.png');
+		background-size: contain;
+	}
+	#proj2-text{
+		float: right;
+		padding: 40px 50px 10px 0px;
+	}
+	.proj2button {
+		display: block;
+		margin: 10px auto;
+	}
+
+	/*   proj5   */
+	#secondRound-img-container, #proj5-img-container {
+		padding: 10px;
+		width: 360px;
+		height: 173px;
+	}
+	#secondRound-img {
+		width: 360px;
+		height: 173px;
+		background-image: url('img/snapshot_secondRound.png');
+		background-size: contain;
+	}
+	#proj5-img {
+		width: 360px;
+		height: 173px;
+		background-image: url('img/snapshot_scheduleTable.png');
+		background-size: cover;
+	}
+	#secondRound-text, #proj5-text {
+		padding: 0px 0 20px 10px;
+	}
+	#secondRound-text p, #proj5-text p{
+		padding: 0 0 5px 0;
+	}
+	.secondRoundbutton, .proj5button {
+		display: inline-block;
+		margin: 3px 5px 0px 0;
+		padding: 0 10px;
+	}
+}
+
+@media screen and (max-width: 383px) {
+	
+	#nav-over672px{
+		display: none;
+	}
+
+	p {
+		padding: 3px 0;
+	}
+
+	#wrap {
+		width: 320px;
+		font-size: 15px;
+	}
+	#proj1,#proj2,#proj3,#proj4,#proj5,#secondRound,#bio{
+		width: 320px;
+		margin: 10px 0 0 0;
+	}
+
+	#bio-img-container {
+		float: left;
+		padding: 10px;
+		width: 140px;
+		height: 195px;
+	}
+	#bio-img {
+		width: 140px;
+		height: 195px;
+		background-image: url('img/portfolio.jpg');
+		background-size: contain;
+	}
+	#bio-text {
+		float: right;
+		height: 195px;
+		padding: 20px 10px 0px 5px;
+	}
+
+	/* proj1 */
+
+	#proj1-img-container{
+		float: left;
+		padding: 10px;
+		width: 140px;
+		height: 172px;
+	}
+	#proj1-img {
+		width: 140px;
+		height: 172px;
+		background-image: url('img/snapshot_calculator.png');
+		background-size: contain;
+	}
+	
+	#proj1-text{
+		float: right;
+		padding: 10px 35px 10px 0px;
+	}
+	.proj1button{
+		display: block;
+		margin: 5px auto;
+	}
+
+	/*  proj3  */
+	#proj3-img-container {
+		float: left;
+		padding: 10px;
+		width: 140px;
+		height: 127px;
+	}
+	#proj3-img {
+		width: 140px;
+		height: 127px;
+		background-image: url('img/snapshot_puzzle.png');
+		background-size: contain;
+	}
+	#proj3-text{
+		float: right;
+		padding: 20px 50px 10px 0px;
+	}
+	.proj3button {
+		display: block;
+		margin: 10px auto;
+	}
+
+	/*  proj4  */
+	#proj4-img-container{
+		float: left;
+		padding: 10px;
+		width: 140px;
+		height: 172px;
+	}
+	#proj4-img {
+		width: 140px;
+		height: 172px;
+		background-image: url('img/snapshot_todoList.png');
+		background-size: contain;
+	}
+	#proj4-text{
+		float: right;
+		padding: 10px 35px 10px 0px;
+	}
+	.proj4button{
+		display: block;
+		margin: 5px auto;
+	}
+
+	/*   proj2   */
+	#proj2-img-container {
+		float: left;
+		padding: 10px;
+		width: 140px;
+		height: 123px;
+	}
+	#proj2-img {
+		width: 140px;
+		height: 123px;
+		background-image: url('img/snapshot_calendar.png');
+		background-size: contain;
+	}
+	#proj2-text{
+		float: right;
+		padding: 20px 38px 10px 0px;
+	}
+	.proj2button {
+		display: block;
+		margin: 10px auto;
+	}
+
+	/*   proj5   */
+	#secondRound-img-container, #proj5-img-container {
+		padding: 10px;
+		width: 300px;
+		height: 144px;
+	}
+	#secondRound-img {
+		width: 300px;
+		height: 144px;
+		background-image: url('img/snapshot_secondRound.png');
+		background-size: contain;
+	}
+	#proj5-img {
+		width: 300px;
+		height: 144px;
+		background-image: url('img/snapshot_scheduleTable.png');
+		background-size: cover;
+	}
+	#secondRound-text, #proj5-text {
+		padding: 0px 0 20px 10px;
+	}
+	#secondRound-text p, #proj5-text p{
+		padding: 0 0 5px 0;
+	}
+	.secondRoundbutton, .proj5button {
+		display: inline-block;
+		margin: 3px 5px 3px 0;
+		padding: 0 10px;
+	}
+
+}
