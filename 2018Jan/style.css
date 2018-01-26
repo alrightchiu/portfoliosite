@@ -93,6 +93,7 @@ a {
 
 ul {
     list-style-type: square;
+    width: 100%;
 }
 
 
@@ -444,7 +445,7 @@ ul {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-left: 40px;
+        padding-left: 30px;
         /* border: 1px solid rgb(0, 255, 13); */
     }
     .card-buttons {
@@ -543,7 +544,7 @@ ul {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-left: 40px;
+        padding-left: 30px;
     }
     .card-buttons {
         display: flex;
