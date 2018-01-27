@@ -141,6 +141,9 @@ ul {
     margin: 0 10px;
     font-size: 30px;
     font-family: FontAwesome;
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    transition-duration: 0.25s;
 }
 
 .github:before {
