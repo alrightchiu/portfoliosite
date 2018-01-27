@@ -155,9 +155,17 @@ ul {
     content: "\f19a";
 }
 
-.ban::before {
+.ban:before {
     content: "\f05e";
-    /* content: "\f071"; */
+}
+
+.github:hover,
+.linkedin:hover {
+    color: #4addc1;
+}
+
+.ban:hover {
+    color: #dd4a66;
 }
 
 .nav {
